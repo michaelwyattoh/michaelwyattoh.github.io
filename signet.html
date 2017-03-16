@@ -22,6 +22,7 @@ h1, h2, h4, h3, h5, h6, p, span, a, i {
     transition: 0.25s;
 }
 
+
 h1, h2, h3 {
     text-align: center;
     margin: 30px 0 10px 0;
@@ -29,12 +30,15 @@ h1, h2, h3 {
     display: inline-block;
 }
 
-.bio h1 {
-    font-family: "Covered By Your Grace";
-    font-size: 60px;
-    margin-bottom: 40px;
-    font-weight: normal;
+h1 {
+  padding-bottom: 10px;
+  border-bottom: 4px solid #000;
 }
+
+#block {
+  line-height: 28px;
+}
+
 
 #menu h1, #menu h2, #menu h3, #menu h4, #menu h5, #menu h6, #menu p, #menu span, #menu a, #menu i {
     color: #FAFAFA;
@@ -44,6 +48,11 @@ h1, h2, h3 {
 
 #menu p {
     font-size: 14px;
+}
+
+a{
+  text-decoration: none;
+  color: #404040;
 }
 
 a:hover {
@@ -110,11 +119,7 @@ a:hover {
     width: 75%;
     margin: auto;
 }
-    
-    h2, h3{
-       border-bottom: 1px solid #000;
-        display: inline-block;
-    }
+
 
 /*  Main  */
 
@@ -128,11 +133,12 @@ a:hover {
     padding: 20px;
 }
 
-#main-wrapper {
+html, #main-wrapper {
     position: relative;
     background: #FAFAFA;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+
 }
 
 #container.menu-open #main-wrapper {
@@ -241,7 +247,7 @@ a:hover {
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Michael Wyatt | Web Developer & Designer</title>
+        <title>Untitled</title>
         <link rel="stylesheet" href="css/normalize.css" type="text/css" media="all">
         <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
@@ -250,31 +256,27 @@ a:hover {
     </head>
     <body>
 
-               
+
             <div id="main-wrapper">
                 <div id="main">
                     <h1> Skip Trace Tools </h1>
                     </hr>
+                <div id="block">
                 <h2>Address Search</h2>
                 <li><a href="http://www.theyellowpages.com/">White Pages(powered by YP)</a></li>
                 <li><a href="http://www.411.com/">411.com</a></li>
+                <li><a href="http://www.whitepages.com/">Whitepages</a></li>
                 <h2>Other Tools</h2>
                 <li><a href="http://www.skipease.com/">SkipEase</a></li>
                 <li><a href="http://www.thatsthem.com/">Thats Them</a></li>
                 <li><a href="http://www.familytreenow.com/">Family Tree Now</a></li>
-                </hr>   
-             
-                <h2>Accounts</h2>
-                <div class="warning">Please Don't Change the password</div>
-                <h3>LinkedIn</h3>
-                <div class="username"><strong>Username:</strong>Blake.roger21@gmail.com</div>
-                <div class="password"><strong>Password:</strong>Akronoh01!</div>
-                <h3>Facebook</h3>
-               <div class="username"><strong>Username:</strong>Blake.roger21@gmail.com</div>
-               <div class="password"><strong>Password:</strong>Akronoh01!</div>
-                   
-                       
-                        
+                <li><a href="http://www.nuwber.com/">Nuwber</a></li>
+                <li><a href="http://www.rehold.com/">Rehold</a></li>
+              </div>
+              <div id="block">
+             </div>
+
+
                     </div>
                 </div>
     </body>
